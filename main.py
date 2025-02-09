@@ -10,6 +10,7 @@ def read_file(file_path):
     except Exception as e:
         return f"An error occurred: {e}"
 
+    
 def write_file(file_path, content):
     try:
         with open(file_path, 'w') as file:
